@@ -1,6 +1,11 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    { "source": "/requester", "destination": "/requester.html" },
+    { "source": "/approver", "destination": "/approver.html" },
+    { "source": "/technician", "destination": "/technician.html" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
